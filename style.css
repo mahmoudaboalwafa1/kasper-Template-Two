@@ -397,21 +397,21 @@ section.design::after {
 }
 
 section.design img {
- width: 400px;
- height: 500px;
+ width: 50%;
+ height: 80%;
  padding-left: 10px;
  transform: translateY(60px);
  position: absolute;
- bottom: 0;
+ bottom: -10%;
  z-index: 101;
 }
 
 div.bg {
  background-color: var(--visbilty-color);
- width: 590px;
- height: 400px;
+ width: 50%;
+ height: 69%;
  margin-top: 80px;
- top: 70px;
+ top: 14%;
  color: #ffffff;
  position: absolute;
  right: 0;
@@ -422,18 +422,53 @@ div.bg h1 {
  padding: 40px 0px 60px 20px;
 }
 
-div.bg span {
- font-size: 30px;
- padding: 0px 0px 20px 50px;
+div.des p {
+ padding-left: 20px;
+ font-weight: 500;
+ font-size: 20px;
+ padding: 57px;
 }
 
 @media (max-width: 768px) {
+ div.bg span {
+  padding: 30px 0px 20px 50px;
+ }
+
+ div.bg {
+  width: 100%;
+ }
  section.design img {
   display: none;
  }
 
+ div.bg span {
+  font-size: 30px;
+  padding: 50px 0px 20px 50px;
+ }
+
  div.bg {
   left: 0;
+ }
+
+ div.des p {
+  padding: 50px 0px 20px 50px;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 863px) {
+ div.bg span {
+  padding: 20px 0px 20px 50px;
+ }
+
+ div.des p {
+  font-size: 18px;
+  padding: 20px;
+ }
+}
+
+@media (min-width: 864px) {
+ div.bg span {
+  padding: 55px 0px 20px 50px;
  }
 }
 
@@ -441,10 +476,6 @@ div.des {
  display: flex;
 }
 
-div.des p {
- padding-left: 20px;
- font-weight: 500;
-}
 /* end design */
 
 /* start portfolio */
