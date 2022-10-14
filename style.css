@@ -332,15 +332,14 @@ p.pes {
 }
 
 section#services div.container p {
- width: 700px;
+ /* width: 657px; */
  max-width: 100%;
- padding-left: 35px;
+ padding-left: 5px;
  margin-top: -100px;
  text-align: left;
- transform: translateX(-10px);
+ transform: translateX(48px);
  line-height: 2.8;
 }
-
 div.serv {
  display: flex;
 }
@@ -352,7 +351,7 @@ div.servs h1 {
 }
 
 div.servs span {
- transform: translateY(-8px);
+ transform: translateY(-10px);
  font-size: 80px;
 }
 
@@ -372,6 +371,7 @@ div.servs span {
 
  section#services div.container p {
   text-align: center;
+  transform: translateX(0px);
  }
 }
 
