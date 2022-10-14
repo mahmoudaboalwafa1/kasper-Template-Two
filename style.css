@@ -906,6 +906,12 @@ div.qu q {
  max-width: 100%;
  font-size: 40px;
 }
+
+@media (max-width: 768px) {
+ div.qu q {
+  padding: 5% 5%;
+ }
+}
 /* end quote */
 
 /* start pricing  */
