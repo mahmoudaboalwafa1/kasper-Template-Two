@@ -909,7 +909,8 @@ div.qu q {
 
 @media (max-width: 768px) {
  div.qu q {
-  padding: 5% 5%;
+  padding: 18% 5%;
+  font-size: 29px;
  }
 }
 /* end quote */
