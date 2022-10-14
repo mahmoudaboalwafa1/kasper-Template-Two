@@ -430,10 +430,6 @@ div.des p {
 }
 
 @media (max-width: 768px) {
- div.bg span {
-  padding: 30px 0px 20px 50px;
- }
-
  div.bg {
   width: 100%;
  }
@@ -457,12 +453,11 @@ div.des p {
 
 @media (min-width: 769px) and (max-width: 863px) {
  div.bg span {
-  padding: 20px 0px 20px 50px;
+  padding: 30px 0px 20px 50px;
  }
-
  div.des p {
   font-size: 18px;
-  padding: 20px;
+  padding: 30px;
  }
 }
 
@@ -474,6 +469,7 @@ div.des p {
 
 div.des {
  display: flex;
+ margin-top: -30px;
 }
 
 /* end design */
@@ -1138,7 +1134,7 @@ div.sub p {
 
 @media (max-width: 600px) {
  div.sub form {
-  width: 300px;
+  width: 100%;
  }
 }
 /* end subscribe  */
