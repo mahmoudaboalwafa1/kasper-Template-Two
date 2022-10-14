@@ -131,7 +131,7 @@ nav li:not(li:last-of-type):hover::after {
  display: block;
 }
 
-i.fa-bars {
+span#icon {
  display: none;
 }
 
@@ -232,7 +232,7 @@ div.circles li:nth-child(2) {
 
  nav ul.menu {
   display: block;
-  margin-top: 32px;
+  margin-top: 16px;
   width: 100%;
   z-index: 100;
   background-color: rgb(0 0 0 / 50%);
@@ -248,13 +248,14 @@ div.circles li:nth-child(2) {
   display: block;
  }
 
- i.fa-bars {
+ span#icon {
   display: block;
   color: white;
   font-size: 20px;
   margin-top: -35px;
   position: absolute;
   right: 30px;
+  cursor: pointer;
  }
 
  nav li:not(li:last-of-type)::after {
@@ -718,6 +719,15 @@ div.testi {
  padding-bottom: 30px;
 }
 
+div.testi p {
+ width: 750px;
+ max-width: 100%;
+ font-size: 20px;
+ text-align: left;
+ padding-left: 50px;
+ position: relative;
+}
+
 @media (max-width: 768px) {
  div.testi {
   flex-direction: column;
@@ -727,15 +737,12 @@ div.testi {
  div.bg4 {
   left: 0;
  }
-}
 
-div.testi p {
- width: 750px;
- max-width: 100%;
- font-size: 20px;
- text-align: left;
- padding-left: 50px;
- position: relative;
+ div.testi p {
+  padding-left: 15px;
+  text-align: center;
+  padding: 20px 0;
+ }
 }
 
 div.testi p::before {
@@ -754,7 +761,7 @@ div.testi p::after {
  width: 100%;
  position: absolute;
  bottom: -41px;
- left: 60px;
+ left: 35px;
 }
 
 div.testi img {
